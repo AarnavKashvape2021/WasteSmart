@@ -1,0 +1,42 @@
+**Idea:**
+The project envisions an automated waste sorting system using sensor technologies and robotics. By streamlining sorting processes, the project aims to optimize resource recovery, 
+enhance recycling efficiency, and contribute to environmental sustainability by minimizing the impact of improper waste disposal.
+
+**Problem Statement:**
+The current waste sorting process consists of inefficiencies that contribute to environmental concerns, like heightened pollution. The recognition that the current approach is
+harmful to nature, highlights the urgency for a solution to streamline waste management, improve resource recovery, and minimize the environmental impact of improper waste disposal.
+
+**Solutions brainstorming:**
+Firstly we came up with an idea which implements a machine learning algorithm and computer vision to detect the kind of waste that it was seeing. BUt since this would need a lot of 
+data to train the model, we decided against it. Then we settled on using sensors to do all the detecting work.
+
+**Final Solution:**
+Our team waste sorting system is smart and simple. It uses a conveyor system, and an inductive proximity sensor (detects metal) and a moisture sensor (detects wet waste) and a servo 
+motor that will push the waste off of the conveyor based on the type detected by the sensors. The conveyor belt is made using foam and should (ideally) be attached to itself on the other end
+by stitching. All of this is placed on a strong, lasercut, plywood frame. We used ball bearings, a 3D-printed coupling and a PVC pipe to make the conveyor rotate.
+
+**Challenges we faced:**
+One of the most major challenges we faced was making the conveyor system for the robot which would have to handle the weight of the trash that is kept on it. Also the frame for the 
+system needs to be pretty sturdy as it needs to bear the weight of the sensor and the servo motor that will push the waste off the conveyor system. That is why plywood is a good 
+option. Also designing the arm for the servo was pretty difficult as it needed to be strong, long, and light.
+
+**Materials and machines used:**  
+*Materials*  
+Arduino uno r4
+Motor shield (L298P)
+Inductive proximity sensor
+2x DC motors
+Servo motor 
+9v battery
+Plywood 
+Foam 
+duct tape
+Female to female jumper wires  
+*Tools*  
+Wire clippers  
+Scissors 
+Hammer
+*Machines*
+Solder iron  
+Laser cutter 
+Drill Machine 
